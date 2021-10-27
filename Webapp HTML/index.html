@@ -1,0 +1,187 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Paintings</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Welcome</a></li>
+							<li><a href="#one">Sign up</a></li>
+							<li><a href="#two">Upload Your Art</a></li>
+							<li><a href="#three">Get in touch</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1>Art Plaigrism Detector</h1>
+							<p>Giving your art the security it deserves<br />
+							by utilizing the power of AI </p>
+							<ul class="actions">
+								<li><a href="generic.html" class="button scrolly">Learn more</a></li>
+							</ul>
+							<section>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="username">Username</label>
+												<input type="text" name="username" id="username" />
+											</div><br>
+										
+										<div class="field half">
+												<label for="pass">Password</label>
+												<input type="password" name="password" id="password" required/>
+										</div>	
+										<div class="field half">
+										<ul class="actions">
+											<li><a href="#two" class="button submit">Login</a></li>
+										</ul></div>									
+									</form>
+									<div class="field half">
+									<p><br>New here? <a href="#one">Sign up</a></p></div>
+								</section>
+						</div>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style2 spotlight">
+						<div class="inner">
+							<h2>Sign up</h2>
+							<p>Please fill in the form to create an account</p>
+								<section>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="username">Username</label>
+												<input type="text" name="username" id="username" />
+											</div>
+										<div class="field half">
+												<label for="email">Email</label>
+												<input type="text" name="email" id="email" />
+										</div>
+										<div class="field half">
+												<label for="pass">Password</label>
+												<input type="password" name="password" id="password" required/>
+										</div>	
+										<div class="field half">
+												<label for="psw-repeat">Repeat Password</label>
+												<input type="password" name="psw-repeat" id="psw-repeat" required/>
+										</div>
+										<!-- the data site key will have to be registered here: https://www.google.com/recaptcha/admin#list
+											the generated sitekey is the value of "data-sitekey"-->
+										<div class="field half">
+										<script src='https://www.google.com/recaptcha/api.js'></script>										
+										<div class="g-recaptcha" data-sitekey="6Ldbdg0TAAAAAI7KAf72Q6uagbWzWecTeBWmrCpJ"></div></div>
+										<div class="field">
+										<ul class="actions">
+											<li><button type="button" class="cancelbtn">Cancel</button></li>
+											<li><a href="#three" class="button submit">Sign up</a></li>
+										</ul></div>									
+									</form>
+								</section>
+				<!-- Two -->
+					<section id="two" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>Upload Your Art</h2>
+							<p>Select a picture of your art that you would like to upload to our database.</p>
+							<div>
+								<section>
+								<span class="icon solid major fa-code"></span>
+								<div class="text-center">
+									<form method="post" enctype="multipart/form-data" id="myform">
+									<div class='preview'>
+										<img src="" id="img" width="100" height="100">
+									</div>
+								<div>
+									<input type="file" id="file" name="file" />
+									<input type="button" class="button" value="Upload" id="but_upload">
+								</div></div>
+								</section>
+								<section>
+									<span class="icon solid major fa-lock"></span>
+									<h3>Art Security</h3>
+									<p>Learn about how we keep your art secure</p>
+								</section>
+
+							</div>
+							<ul class="actions">
+								<li><a href="generic.html" class="button">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- Three -->
+					<section id="three" class="wrapper style1 fade-up">
+						<div class="inner">
+							<h2>Get in touch</h2>
+							<p>If you have any feedback for us or any question, please fill this form.</p>
+							<div>
+								<section>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="name">Name</label>
+												<input type="text" name="name" id="name" />
+											</div>
+											<div class="field half">
+												<label for="email">Email</label>
+												<input type="text" name="email" id="email" />
+											</div>
+											<div class="field">
+												<label for="message">Message</label>
+												<textarea name="message" id="message" rows="5"></textarea>
+											</div>
+										</div>
+										<div class="field half">
+										<ul class="actions">
+											<li><a href="" class="button submit">Send Message</a></li>
+										</ul></div>
+									</form>
+								</section>
+								
+							</div>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

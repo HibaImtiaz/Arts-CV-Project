@@ -1,0 +1,11 @@
+flask=1.1.4
+werkzeug=1.0.1
+tensorflow=2.6.0
+keras=2.6.0
+PIL=7.1.2
+numpy=1.19.5
+cv2=4.1.2
+matplotlib=3.2.2
+imutils=0.5.4
+flask_restful=0.3.9
+sqlite3=3.22.0
